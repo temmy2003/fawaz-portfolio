@@ -1,0 +1,38 @@
+.about{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.desktop{   
+    width: 65%;
+    /* background-color: red; */
+    margin:auto ;
+    /* display: flex; */
+}
+
+.desktop img{
+    width: 70%;
+}
+.desktop > div{
+    margin-top: 30px;
+}
+.desktop p{
+    width: 34rem;
+    font-size: 18px;
+}
+
+.service{
+    display: flex;
+    width: 70%;
+    margin:auto ;
+    justify-content: space-between;
+}
+.service div p{
+    width: 100%;
+    font-size: 25px;
+}
+
+.star{
+    gap: 20px;
+}

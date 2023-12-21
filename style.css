@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #DFDFDD;
+}
+.hero{
+    width: 90%;
+    margin: auto;
+    color: #0A0A0AE5;
+}
+
+nav{
+    margin-top: 20px; 
+    height: 30px;
+    margin-bottom: 20px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list{
+    display: flex;  
+    width: 50%;
+    /* background-color: blue; */
+    justify-content: space-between;
+
+}
+ul {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* justify-content: space-between; */
+    /* background-color: red; */
+    list-style: none;  
+
+}
+ ul li a{
+    text-decoration: none;
+    color: #0A0A0AE5;
+    font-size: 20px;
+    /* text-align: center; */
+}
+.ul-list{
+    position: absolute;
+    width: 90%;
+    top: 24px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+nav p{
+    font-size: 20px;
+}
+
+.sec{
+    margin-top: 8rem;
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.sec h1{
+    font-size: 70px;
+    width: 50%;
+}
+
+.sm-card{
+    width: 30%;
+}
+.sec .sm-card h2{
+    font-size: 30px;
+
+    
+}
+.sec .sm-card img{
+    width: 100%;
+    margin-top: 35px;
+}
+
+.star{
+    width: 35%;
+    font-size: 18px;
+    margin-top: 55px;
+    display: flex;
+    /* align-items: center; */
+}
+.star img {
+    width: 23px;
+    height: 23px;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.rotate-text{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.rotate-text img{
+    position: relative;
+    animation: rotate 10s  linear infinite;   
+
+}
+.arrow{
+    display: flex;
+    justify-content: end;
+    margin-top: -140px;
+    position: relative;   
+    right: 70px;
+}
+
+
+.sect2{
+    background-color: black;  
+    margin-top: 7rem;      
+}
+.sect{
+    width: 90%;
+    margin: auto;
+    color: #fff;
+    /* background-color: green; */
+    
+}
+.flex{
+    padding: 50px 0px 50px;
+    display: flex;
+    /* background-color: red; */
+    justify-content:space-between;
+    /* align-items: center;  */
+    /* gap: 20px; */
+
+}
+
+.sect img{
+    width: 80%;
+    padding-left: 70px;
+    /* background-color: red; */
+}
+.card p{
+    width: 35rem;
+    font-size: 25px;
+    /* background-color: blueviolet; */
+}
+
+.btn{
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.sec3{
+    width: 90%;
+    margin: auto;
+}
+.word{
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+
+.word p{
+    font-size: 27px;
+}
+.empty{
+    width: 20px;
+}
+
+.cards{
+    /* margin: 80%; */
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards .card-img img{
+    width: 80%
+}
+.cards .card-word{
+    width: 50%;
+}
+
+.cards .card-word p{
+    width: 400px;
+    margin-top: 28px;
+    font-size: 20px;
+}
+.cards .card-word h1{
+    width: 490px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.cards .card-word button{
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: 1px solid #0A0A0AD9;
+    background: none;
+    color: #0A0A0AD9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-solid{
+    margin-right: 5px;
+}
+
+.host_name h1{
+    margin-top: 10rem;
+    margin-bottom: 60px;
+    font-size: 70px;
+    /* width: 0%; */
+
+}
+
+.card-button{
+    /* width: 100%; */
+    
+    background-color: red;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+footer p{
+    font-size: 20px;
+}

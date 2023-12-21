@@ -1,0 +1,28 @@
+/* .cont{
+    background-color: black;
+} */
+body{
+    background-color: black;
+    color: #fff;
+}
+ ul li a{
+    color: #fff;
+}
+.contact{
+    width: 90%;
+    margin: auto;
+}
+.info{
+    margin-top: 20px;
+    text-align: center;
+    line-height:8rem;
+}
+
+.info p{
+    font-size: 25px;
+}
+.info h1{
+    line-height: 55px;
+    font-size: 40px;
+    text-decoration: underline;
+}

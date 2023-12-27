@@ -24,14 +24,68 @@
     width: 90%;
 }
 
-.overflow{
+.over{
+    margin-top: 10rem;
     /* width: 1000%; */
+    
+}
+.overflow{
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
+    overflow-x: scroll;
+    /* justify-content: space-between; */
 
+}
+.overflow::-webkit-scrollbar{
+    background: transparent;
 }
 
 .overflow img{
-    width: 20%;
+    /* margin-top: 90px; */
+    position: relative;
+    width: 450px;
+    height: 370px;
+    z-index: 0;
+    cursor: pointer;
+    
+    
+    
 
+}
+/* .overflow{
+    position: relative;
+    background-color: green;
+    bottom: 360px ;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+} */
+
+.work .word{
+    margin-top: -22rem;
+}
+
+.ellipse{
+    /* width: 100%; */
+    position: relative;
+    /* background-color: green; */
+      bottom: 26.6rem  ;
+    /* background-color: red; */
+    /* height: 80%; */
+    display: grid;
+    pointer-events: none;
+    height: 452px;
+    align-content: space-between;
+}
+.elips img{
+    width: 100%;
+    /* z-index: 2; */
+    /* position: relative;
+
+    bottom: 20000px ; */
+    gap: 20px;
+    /* background-color: green; */
+ 
+    
 }

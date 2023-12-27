@@ -36,3 +36,7 @@
 .star{
     gap: 20px;
 }
+.about .rotate{
+    margin-top: 27rem;
+    align-items: end;
+}

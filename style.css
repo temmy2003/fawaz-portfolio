@@ -6,6 +6,7 @@
 }
 body{
     background-color: #DFDFDD;
+    
 }
 .hero{
     width: 90%;
@@ -44,7 +45,15 @@ ul {
     text-decoration: none;
     color: #0A0A0AE5;
     font-size: 20px;
+    /* transition:2s ease-in; */
+    transition: border-bottom 0.3s ; /* Transition on background color */
+
     /* text-align: center; */
+}
+ul li a:hover{
+    border-bottom: 2px solid #0A0A0AE5;
+
+    
 }
 .ul-list{
     position: absolute;
@@ -57,19 +66,21 @@ ul {
 }
 nav p{
     font-size: 20px;
+   
 }
 
 .sec{
     margin-top: 8rem;
     display: flex;
+    flex-wrap: wrap;
     /* background-color: red; */
     justify-content: space-between;
     /* align-items: center; */
 }
 .sec h1{
-    font-size: 70px;
-    width: 50%;
-}
+    font-size: 78px;
+    /* width: 60%; */
+    font-family: "MangoGrotesque", Georgia;}
 
 .sm-card{
     width: 30%;
@@ -137,6 +148,7 @@ nav p{
 .flex{
     padding: 50px 0px 50px;
     display: flex;
+    flex-wrap: wrap;
     /* background-color: red; */
     justify-content:space-between;
     /* align-items: center;  */
@@ -162,9 +174,9 @@ nav p{
     background: none;
     color: #fff;
     display: flex;
-    justify-content: center;
     align-items: center;
-    /* gap: 20px; */
+    gap: 10px;
+    font-size: 16px;
 }
 
 .sec3{
@@ -190,6 +202,7 @@ nav p{
     /* margin: 80%; */
     margin-top: 10rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -217,6 +230,8 @@ nav p{
     background: none;
     color: #0A0A0AD9;
     display: flex;
+    font-size: 16px;
+    gap: 5px;
     justify-content: center;
     align-items: center;
 }
@@ -247,4 +262,20 @@ footer{
 
 footer p{
     font-size: 20px;
+}
+
+@media screen and (max-width:900px){
+    nav{
+        display: none;
+    }
+    footer{
+        display: block;
+    }
+    .hero{
+        width: 90%;
+        margin: auto;
+    }
+    .host_name h1{
+        font-size: 60px;
+    }
 }

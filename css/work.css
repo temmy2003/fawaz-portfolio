@@ -46,10 +46,14 @@
     width: 450px;
     height: 370px;
     z-index: 0;
-    cursor: pointer;
-    
-    
-    
+    cursor: pointer;     
+
+}
+.work .crd{
+    margin-top: 10rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
 
 }
 /* .overflow{
@@ -62,7 +66,7 @@
     z-index: 1;
 } */
 
-.work .word{
+.work .road{
     margin-top: -22rem;
 }
 
